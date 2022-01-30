@@ -28,6 +28,24 @@
 </div>
 
 <div class="my-8 grid gap-0">
+	<h3 class="text-xl my-4">Preview</h3>
+	<div class="grid {maybeJoinXY($gapX, $gapY)} {$cols} {$rows}">
+		<div class="rounded-lg border-2 border-blue-200 p-4">1</div>
+		<div class="rounded-lg border-2 border-blue-200 p-4">2</div>
+		<div class="rounded-lg border-2 border-blue-200 p-4">3</div>
+		<div class="rounded-lg border-2 border-blue-200 p-4">4</div>
+		<div class="rounded-lg border-2 border-blue-200 p-4">5</div>
+		<div class="rounded-lg border-2 border-blue-200 p-4">6</div>
+		<div class="rounded-lg border-2 border-blue-200 p-4">7</div>
+		<div class="rounded-lg border-2 border-blue-200 p-4">8</div>
+		<div class="rounded-lg border-2 border-blue-200 p-4">9</div>
+		<div class="rounded-lg border-2 border-blue-200 p-4">10</div>
+		<div class="rounded-lg border-2 border-blue-200 p-4">11</div>
+		<div class="rounded-lg border-2 border-blue-200 p-4">12</div>
+	</div>
+</div>
+
+<div class="my-8 grid gap-0">
 	<h3 class="text-xl my-4">Markup</h3>
 	<pre><code>
 {`<div class="grid ${maybeJoinXY($gapX, $gapY)} ${$cols} ${$rows}">
@@ -45,22 +63,4 @@
     <div>12</div>
 </div>`}
     </code></pre>
-</div>
-
-<div class="my-8 grid gap-0">
-	<h3 class="text-xl my-4">Preview</h3>
-	<div class="grid {maybeJoinXY($gapX, $gapY)} {$cols} {$rows}">
-		<div class="rounded-lg border-2 border-blue-200 p-4">1</div>
-		<div class="rounded-lg border-2 border-blue-200 p-4">2</div>
-		<div class="rounded-lg border-2 border-blue-200 p-4">3</div>
-		<div class="rounded-lg border-2 border-blue-200 p-4">4</div>
-		<div class="rounded-lg border-2 border-blue-200 p-4">5</div>
-		<div class="rounded-lg border-2 border-blue-200 p-4">6</div>
-		<div class="rounded-lg border-2 border-blue-200 p-4">7</div>
-		<div class="rounded-lg border-2 border-blue-200 p-4">8</div>
-		<div class="rounded-lg border-2 border-blue-200 p-4">9</div>
-		<div class="rounded-lg border-2 border-blue-200 p-4">10</div>
-		<div class="rounded-lg border-2 border-blue-200 p-4">11</div>
-		<div class="rounded-lg border-2 border-blue-200 p-4">12</div>
-	</div>
 </div>
